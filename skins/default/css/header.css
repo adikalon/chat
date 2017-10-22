@@ -1,0 +1,111 @@
+form {
+	display: inline;
+}
+
+.logo {
+	color: #ffffff;
+	margin-top: 5px;
+	font-size: 50px;
+}
+
+.logo_text {
+	color: #ffffff;
+	font-size: 30px;
+}
+
+#login {
+	background-color: #ffffff;
+	border: 0px;
+	height: 24px;
+	border-radius: 2px;
+	margin-top: 3px;
+	padding-left: 7px;
+	padding-right: 7px;
+	width: 150px;
+	color: #000000;
+}
+
+#pass {
+	background-color: #ffffff;
+	border: 0px;
+	height: 24px;
+	border-radius: 2px;
+	margin-top: 3px;
+	padding-left: 7px;
+	padding-right: 7px;
+	width: 150px;
+	color: #000000;
+}
+
+#ok {
+	border: 1px solid #29487d;
+	border-radius: 2px;
+	background-color: #4267b2;
+	padding: 1px 3px 1px 3px;
+	margin-left: 27px;
+}
+
+#ok:hover {
+	background-color: #365899;
+	cursor: pointer;
+}
+
+.reg_button {
+	padding: 3px;
+	color: #ffffff;
+	border: 1px solid #29487d;
+	border-radius: 2px;
+	background-color: #4267b2;
+}
+
+.reg_button:hover {
+	color: #ffffff;
+	background-color: #365899;
+	text-decoration: none;
+}
+
+.remember {
+	color: #9cb4d8;
+	font-size: 13px;
+}
+
+.remember:hover {
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.or_text {
+	color: #9cb4d8;
+	font-size: 13px;
+}
+
+.error_relative {
+	position: relative;
+}
+
+.error_block {
+	position: absolute;
+	background-color: #000000;
+	padding: 5px 10px 5px 10px;
+	right: 40px;
+	top: 3px;
+	border-radius: 3px;
+}
+
+.header_rotate {
+	position: absolute;
+	background-color: #000000;
+	width: 20px;
+	height: 20px;
+	right: 250px;
+	-webkit-transform: rotate(45deg);
+	-khtml-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+
+.auth_pole {
+	margin-top: 10px;
+}

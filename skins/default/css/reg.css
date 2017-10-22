@@ -1,0 +1,146 @@
+.reg_page {
+	
+}
+
+.reg_input_pole {
+	float: right;
+	width: 50%;
+}
+
+.reg_info_pole {
+	float: left;
+	width: 50%;
+	text-align: center;
+}
+
+/* div {
+	border: 1px solid #000000;
+}
+ */
+#reg_login {
+	border: 1px solid #bdc7d8;
+	border-radius: 4px;
+	height: 35px;
+	padding-left: 7px;
+	padding-right: 7px;
+	width: 200px;
+	font-size: 16px;
+}
+
+#reg_pass {
+	border: 1px solid #bdc7d8;
+	border-radius: 4px;
+	height: 35px;
+	padding-left: 7px;
+	padding-right: 7px;
+	width: 200px;
+	font-size: 16px;
+}
+
+.reg_button_off {
+	border: 1px solid #bdc7d8;
+	border-radius: 4px;
+	background-color: #dddddd;
+	padding: 5px 10px 5px 10px;
+	font-size: 16px;
+}
+
+.reg_button_on {
+	border: 1px solid #29487d;
+	border-radius: 4px;
+	background-color: #4267b2;
+	padding: 5px 10px 5px 10px;
+	color: #ffffff;
+	font-size: 16px;
+}
+
+.reg_button_on:hover {
+	background-color: #365899;
+}
+
+#reg_login_relative {
+	position: relative;
+	display: none;
+}
+
+#reg_login_relative_php {
+	position: relative;
+	display: block;
+}
+
+#reg_login_warning {
+	position: absolute;
+	color: #ffffff;
+	background-color: #000000;
+	padding: 5px 10px 5px 10px;
+	border-radius: 3px;
+	left: 210px;
+	top: 2px;
+}
+
+.reg_login_rotate {
+	position: absolute;
+	background-color: #000000;
+	width: 20px;
+	height: 20px;
+	top: 7px;
+	left: 205px;
+	-webkit-transform: rotate(45deg);
+	-khtml-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+
+#reg_pass_relative {
+	position: relative;
+	display: none;
+}
+
+#reg_pass_relative_php {
+	position: relative;
+	display: block;
+}
+
+#reg_pass_warning {
+	position: absolute;
+	color: #ffffff;
+	background-color: #000000;
+	padding: 5px 10px 5px 10px;
+	border-radius: 3px;
+	left: 210px;
+	top: 2px;
+}
+
+.reg_pass_rotate {
+	position: absolute;
+	background-color: #000000;
+	width: 20px;
+	height: 20px;
+	top: 7px;
+	left: 205px;
+	-webkit-transform: rotate(45deg);
+	-khtml-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+
+.login_block {
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+
+.pass_block {
+	margin-bottom: 30px;
+}
+
+.reg_text_top {
+	font-size: 30px;
+}
+
+.reg_text_down {
+	font-size: 14px;
+}

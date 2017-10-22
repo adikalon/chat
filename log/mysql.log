@@ -1,0 +1,7265 @@
+QUERY: SEELECT * FROM `goods` ORDER BY id DESCYou have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SEELECT * FROM `goods` ORDER BY id DESC' at line 1
+
+QUERY: SEELECT * FROM `goods` ORDER BY id DESCYou have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SEELECT * FROM `goods` ORDER BY id DESC' at line 1
+
+QUERY: SEELECT * FROM `goods` ORDER BY id DESCYou have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SEELECT * FROM `goods` ORDER BY id DESC' at line 1
+
+QUERY: SEELECT * FROM `goods` ORDER BY id DESCYou have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SEELECT * FROM `goods` ORDER BY id DESC' at line 1
+
+QUERY: SEELECT * FROM `goods` ORDER BY id DESC
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SEELECT * FROM `goods` ORDER BY id DESC' at line 1
+
+QUERY: SEdLECT * FROM `goods` ORDER BY id DESC
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SEdLECT * FROM `goods` ORDER BY id DESC' at line 1
+C:\OpenServer\domains\magazine.ru\modules\magazine\main.php
+
+QUERY: SEdLECT * FROM `goods` ORDER BY id DESC
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SEdLECT * FROM `goods` ORDER BY id DESC' at line 1
+ FILEC:\OpenServer\domains\magazine.ru\modules\magazine\main.php
+
+QUERY: SEdLECT * FROM `goods` ORDER BY id DESC
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SEdLECT * FROM `goods` ORDER BY id DESC' at line 1
+ FILE: C:\OpenServer\domains\magazine.ru\modules\magazine\main.php
+ LINE: 2
+
+QUERY: SEdLECT * FROM `goods` ORDER BY id DESC
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SEdLECT * FROM `goods` ORDER BY id DESC' at line 1
+FILE: C:\OpenServer\domains\magazine.ru\modules\magazine\main.php
+LINE: 2
+
+2016-06-09 08:06:56
+QUERY: SELdECT * FROM `goods` ORDER BY id DESC
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELdECT * FROM `goods` ORDER BY id DESC' at line 1
+FILE: C:\OpenServer\domains\magazine.ru\modules\magazine\main.php
+LINE: 2
+
+2016-06-10 20:26:32
+QUERY: SELECT `login` FROM `users` WHERE `login` = aaaaa LIMIT 1
+Unknown column 'aaaaa' in 'where clause'
+FILE: C:\OpenServer\domains\magazine.ru\modules\registration\main.php
+LINE: 19
+
+2016-06-11 20:25:01
+QUERY: 
+		UPDATE `users` SET
+		`active` = 1,
+		`hash` = ``
+		WHERE `id` = '7' AND `hash` = 'l0sJph.PM5FAU'
+		
+Unknown column 'active' in 'field list'
+FILE: C:\OpenServer\domains\magazine.ru\modules\cabinet\activate.php
+LINE: 8
+
+2016-06-11 20:26:37
+QUERY: 
+		UPDATE `users` SET
+		`status` = 1,
+		`hash` = ``
+		WHERE `id` = '7' AND `hash` = 'l0sJph.PM5FAU'
+		
+Unknown column '' in 'field list'
+FILE: C:\OpenServer\domains\magazine.ru\modules\cabinet\activate.php
+LINE: 8
+
+2016-06-11 20:27:10
+QUERY: 
+		UPDATE `users` SET
+		`status` = 1,
+		`hash` = ``
+		WHERE `id` = 7 AND `hash` = 'l0sJph.PM5FAU'
+		
+Unknown column '' in 'field list'
+FILE: C:\OpenServer\domains\magazine.ru\modules\cabinet\activate.php
+LINE: 8
+
+2016-06-11 20:50:45
+QUERY: 
+		UPDATE `users` SET
+		`status` = 1,
+		`hash` = `1`
+		WHERE `id` = 7 AND `hash` = 'l0sJph.PM5FAU'
+		
+Unknown column '1' in 'field list'
+FILE: C:\OpenServer\domains\magazine.ru\modules\cabinet\activate.php
+LINE: 8
+
+2016-06-11 20:51:00
+QUERY: 
+		UPDATE `users` SET
+		`status` = 1,
+		`hash` = `1вв`
+		WHERE `id` = 7 AND `hash` = 'l0sJph.PM5FAU'
+		
+Unknown column '1вв' in 'field list'
+FILE: C:\OpenServer\domains\magazine.ru\modules\cabinet\activate.php
+LINE: 8
+
+2016-06-11 20:51:39
+QUERY: 
+		UPDATE `users` SET
+		`status` = 1,
+		`hash` = ``
+		WHERE `id` = 7 AND `hash` = 'l0sJph.PM5FAU'
+		
+Unknown column '' in 'field list'
+FILE: C:\OpenServer\domains\magazine.ru\modules\cabinet\activate.php
+LINE: 8
+
+2016-06-11 20:55:16
+QUERY: 
+		UPDATE `users` SET
+		`status` = 1 AND
+		`hash` = ``
+		WHERE `id` = 7 AND `hash` = 'l0sJph.PM5FAU'
+		
+Unknown column '' in 'field list'
+FILE: C:\OpenServer\domains\magazine.ru\modules\cabinet\activate.php
+LINE: 8
+
+2016-06-11 20:56:18
+QUERY: 
+		UPDATE `users` SET
+		`status` = 1,
+		`hash` = ``
+		WHERE `id` = 7 AND `hash` = 'l0sJph.PM5FAU'
+		
+Unknown column '' in 'field list'
+FILE: C:\OpenServer\domains\magazine.ru\modules\cabinet\activate.php
+LINE: 8
+
+2016-06-30 20:31:15
+QUERY: 
+			INSERT INTO `users` SET
+			`login` = 'qwert',
+			`pass` = 'l0ZWV2ny0KcFA',
+			`rights` = 0,
+			`date` = NOW()
+			
+Unknown column 'rights' in 'field list'
+FILE: C:\OpenServer\domains\chat.ru\modules\cabinet\reg.php
+LINE: 28
+
+2016-06-30 20:35:57
+QUERY: 
+			INSERT INTO `users` SET
+			`login` = 'qwerty',
+			`pass` = 'l0owokYqoX6HI',
+			`rights` = `0`,
+			`date` = NOW()
+			
+Unknown column '0' in 'field list'
+FILE: C:\OpenServer\domains\chat.ru\modules\cabinet\reg.php
+LINE: 28
+
+2016-09-09 20:53:40
+QUERY: 
+	DELETE `users` SET
+	`hash` = ''
+	WHERE `id` = 1
+	
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SET
+	`hash` = ''
+	WHERE `id` = 1' at line 1
+FILE: C:\OpenServer\domains\chat.ru\modules\cabinet\exit.php
+LINE: 7
+
+2016-09-10 17:48:23
+QUERY: SELECT * FROM `messages` LIMIT Core:: ORDER BY `id` DESC
+Undeclared variable: Core
+FILE: C:\OpenServer\domains\chat.ru\modules\static\main.php
+LINE: 2
+
+2016-09-10 17:49:00
+QUERY: SELECT * FROM `messages` LIMIT '5' ORDER BY `id` DESC
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''5' ORDER BY `id` DESC' at line 1
+FILE: C:\OpenServer\domains\chat.ru\modules\static\main.php
+LINE: 2
+
+2016-09-10 17:49:26
+QUERY: SELECT * FROM `messages` LIMIT 5 ORDER BY `id` DESC
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY `id` DESC' at line 1
+FILE: C:\OpenServer\domains\chat.ru\modules\static\main.php
+LINE: 2
+
+2016-09-10 17:50:48
+QUERY: SELECT * FROM `messages` LIMIT 5 ORDER BY `id` DESC
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY `id` DESC' at line 1
+FILE: C:\OpenServer\domains\chat.ru\modules\static\main.php
+LINE: 2
+
+2016-09-10 18:07:50
+QUERY: SELECT * FROM `messages` LIMIT 5 ORDER BY `id` DESC
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY `id` DESC' at line 1
+FILE: C:\OpenServer\domains\chat.ru\modules\static\main.php
+LINE: 2
+
+2016-09-10 18:08:43
+QUERY: SELECT * FROM `messages` ORDER BY `id` DESC LIMIT Core::
+Undeclared variable: Core
+FILE: C:\OpenServer\domains\chat.ru\modules\static\main.php
+LINE: 2
+
+2016-09-11 10:57:53
+QUERY: DELETE FROM online WHERE last
+
+2016-09-11 14:02:06
+QUERY: INSERT INTO online (login,last) VALUES ('1',self::)
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '::)' at line 1
+FILE: C:\OpenServer\domains\chat.ru\libs\class_Online.php
+LINE: 15
+
+2016-09-11 14:03:20
+QUERY: UPDATE online SET last= WHERE login='1' LIMIT 1
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE login='1' LIMIT 1' at line 1
+FILE: C:\OpenServer\domains\chat.ru\libs\class_Online.php
+LINE: 13
+
+2016-09-11 14:03:46
+QUERY: UPDATE online SET last=self:: WHERE login='1' LIMIT 1
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':: WHERE login='1' LIMIT 1' at line 1
+FILE: C:\OpenServer\domains\chat.ru\libs\class_Online.php
+LINE: 13
+
+2016-09-11 18:47:18
+QUERY: INSERT INTO `messages` SET `login` = '12345', `date` = NOW(), `message` = `������� ���`
+Invalid utf8 character string: '\xCF\xEE\xEA\xE8\xED\xF3\xEB \xF7\xE0\xF2'
+FILE: C:\OpenServer\domains\chat.ru\modules\cabinet\exit.php
+LINE: 12
+
+2016-09-11 18:47:31
+QUERY: INSERT INTO `messages` SET `login` = '12345', `date` = NOW(), `message` = `������� ���`
+Invalid utf8 character string: '\xCF\xEE\xEA\xE8\xED\xF3\xEB \xF7\xE0\xF2'
+FILE: C:\OpenServer\domains\chat.ru\modules\cabinet\exit.php
+LINE: 12
+
+2016-09-11 18:47:41
+QUERY: INSERT INTO `messages` SET `login` = '12345', `date` = NOW(), `message` = `Покинул чат`
+Unknown column 'Покинул чат' in 'field list'
+FILE: C:\OpenServer\domains\chat.ru\modules\cabinet\exit.php
+LINE: 12
+
+2016-09-11 18:47:43
+QUERY: INSERT INTO `messages` SET `login` = '12345', `date` = NOW(), `message` = `Покинул чат`
+Unknown column 'Покинул чат' in 'field list'
+FILE: C:\OpenServer\domains\chat.ru\modules\cabinet\exit.php
+LINE: 12
+
+2016-09-11 18:57:01
+QUERY: INSERT INTO `messages` SET `login` = '12345', `date` = Time::getTime(), `message` = 'Присоединился'
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '::getTime(), `message` = 'Присоединился'' at line 1
+FILE: C:\OpenServer\domains\chat.ru\modules\cabinet\auth.php
+LINE: 19
+
+2016-09-11 19:17:16
+QUERY: DELETE FROM online WHERE login
+
+2016-09-11 19:17:38
+QUERY: DELETE FROM online WHERE login =
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+FILE: C:\OpenServer\domains\chat.ru\libs\class_Online.php
+LINE: 31
+
+2016-09-11 19:20:52
+QUERY: DELETE FROM online WHERE login =qwerty
+Unknown column 'qwerty' in 'where clause'
+FILE: C:\OpenServer\domains\chat.ru\libs\class_Online.php
+LINE: 30
+
+2016-09-11 20:51:19
+QUERY: -5
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-5' at line 1
+FILE: C:\OpenServer\domains\chat.ru\libs\class_Message.php
+LINE: 12
+
+2016-09-11 20:52:03
+QUERY: 0
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '0' at line 1
+FILE: C:\OpenServer\domains\chat.ru\libs\class_Message.php
+LINE: 12
+
+2016-09-11 20:52:17
+QUERY: -5
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-5' at line 1
+FILE: C:\OpenServer\domains\chat.ru\libs\class_Message.php
+LINE: 12
+
+2016-09-22 18:08:58
+QUERY: UPDATE `users` SET `key_enter` = 1 WHERE `login` = 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+FILE: C:\OpenServer\domains\chat.ru\libs\class_Key.php
+LINE: 11
+
+2016-09-22 18:08:59
+QUERY: UPDATE `users` SET `key_enter` = 1 WHERE `login` = 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+FILE: C:\OpenServer\domains\chat.ru\libs\class_Key.php
+LINE: 11
+
+2016-09-22 18:09:01
+QUERY: UPDATE `users` SET `key_enter` = 1 WHERE `login` = 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+FILE: C:\OpenServer\domains\chat.ru\libs\class_Key.php
+LINE: 11
+
+2016-09-22 18:09:10
+QUERY: UPDATE `users` SET `key_enter` = 1 WHERE `login` = qwerty
+Unknown column 'qwerty' in 'where clause'
+FILE: C:\OpenServer\domains\chat.ru\libs\class_Key.php
+LINE: 11
+
+2016-09-22 18:09:14
+QUERY: UPDATE `users` SET `key_enter` = 1 WHERE `login` = qwerty
+Unknown column 'qwerty' in 'where clause'
+FILE: C:\OpenServer\domains\chat.ru\libs\class_Key.php
+LINE: 11
+
+2016-09-22 18:09:32
+QUERY: UPDATE `users` SET `key_enter` = 1 WHERE `login` = qwerty
+Unknown column 'qwerty' in 'where clause'
+FILE: C:\OpenServer\domains\chat.ru\libs\class_Key.php
+LINE: 11
+
+2016-09-22 18:09:33
+QUERY: UPDATE `users` SET `key_enter` = 1 WHERE `login` = qwerty
+Unknown column 'qwerty' in 'where clause'
+FILE: C:\OpenServer\domains\chat.ru\libs\class_Key.php
+LINE: 11
+
+2016-09-22 18:09:33
+QUERY: UPDATE `users` SET `key_enter` = 1 WHERE `login` = qwerty
+Unknown column 'qwerty' in 'where clause'
+FILE: C:\OpenServer\domains\chat.ru\libs\class_Key.php
+LINE: 11
+
+2016-09-22 18:09:34
+QUERY: UPDATE `users` SET `key_enter` = 1 WHERE `login` = qwerty
+Unknown column 'qwerty' in 'where clause'
+FILE: C:\OpenServer\domains\chat.ru\libs\class_Key.php
+LINE: 11
+
+2016-09-22 18:09:34
+QUERY: UPDATE `users` SET `key_enter` = 1 WHERE `login` = qwerty
+Unknown column 'qwerty' in 'where clause'
+FILE: C:\OpenServer\domains\chat.ru\libs\class_Key.php
+LINE: 11
+
+2016-09-22 18:09:34
+QUERY: UPDATE `users` SET `key_enter` = 1 WHERE `login` = qwerty
+Unknown column 'qwerty' in 'where clause'
+FILE: C:\OpenServer\domains\chat.ru\libs\class_Key.php
+LINE: 11
+
+2016-09-22 18:12:44
+QUERY: UPDATE `users` SET `key_enter` = 1 WHERE `login` = qwerty
+Unknown column 'qwerty' in 'where clause'
+FILE: C:\OpenServer\domains\chat.ru\libs\class_Key.php
+LINE: 11
+
+2016-09-22 18:12:45
+QUERY: UPDATE `users` SET `key_enter` = 1 WHERE `login` = qwerty
+Unknown column 'qwerty' in 'where clause'
+FILE: C:\OpenServer\domains\chat.ru\libs\class_Key.php
+LINE: 11
+
+2016-09-22 18:12:45
+QUERY: UPDATE `users` SET `key_enter` = 1 WHERE `login` = qwerty
+Unknown column 'qwerty' in 'where clause'
+FILE: C:\OpenServer\domains\chat.ru\libs\class_Key.php
+LINE: 11
+
+2016-09-22 18:12:45
+QUERY: UPDATE `users` SET `key_enter` = 1 WHERE `login` = qwerty
+Unknown column 'qwerty' in 'where clause'
+FILE: C:\OpenServer\domains\chat.ru\libs\class_Key.php
+LINE: 11
+
+2016-09-22 18:14:13
+QUERY: UPDATE `users` SET `key_enter` = 1 WHERE `login` = qwerty
+Unknown column 'qwerty' in 'where clause'
+FILE: C:\OpenServer\domains\chat.ru\libs\class_Key.php
+LINE: 11
+
+2016-09-22 18:18:19
+QUERY: UPDATE `users` SET `key_enter` = 1 WHERE `login` = qwerty
+Unknown column 'qwerty' in 'where clause'
+FILE: C:\OpenServer\domains\chat.ru\libs\class_Key.php
+LINE: 11
+
+2016-09-22 18:23:12
+QUERY: UPDATE `users` SET `key_enter` = 1 WHERE `login` = qwerty
+Unknown column 'qwerty' in 'where clause'
+FILE: C:\OpenServer\domains\chat.ru\libs\class_Key.php
+LINE: 11
+
+2016-09-22 18:26:09
+QUERY: UPDATE `users` SET `key_enter` = 1 WHERE `login` = qwerty
+Unknown column 'qwerty' in 'where clause'
+FILE: C:\OpenServer\domains\chat.ru\libs\class_Key.php
+LINE: 11
+
+2016-09-22 18:30:23
+QUERY: UPDATE `users` SET `key_enter` = 1 WHERE `login` = qwerty
+Unknown column 'qwerty' in 'where clause'
+FILE: C:\OpenServer\domains\chat.ru\libs\class_Key.php
+LINE: 11
+
+2016-09-22 18:30:23
+QUERY: UPDATE `users` SET `key_enter` = 1 WHERE `login` = qwerty
+Unknown column 'qwerty' in 'where clause'
+FILE: C:\OpenServer\domains\chat.ru\libs\class_Key.php
+LINE: 11
+
+2016-09-22 18:31:25
+QUERY: UPDATE `users` SET `key_enter` = 1 WHERE `login` = qwerty
+Unknown column 'qwerty' in 'where clause'
+FILE: C:\OpenServer\domains\chat.ru\libs\class_Key.php
+LINE: 11
+
+2016-09-22 18:44:06
+QUERY: UPDATE `users` SET `key_enter` = 1 WHERE `login` = qwerty
+Unknown column 'qwerty' in 'where clause'
+FILE: C:\OpenServer\domains\chat.ru\libs\class_Key.php
+LINE: 11
+
+2016-09-22 18:44:06
+QUERY: UPDATE `users` SET `key_enter` = 1 WHERE `login` = qwerty
+Unknown column 'qwerty' in 'where clause'
+FILE: C:\OpenServer\domains\chat.ru\libs\class_Key.php
+LINE: 11
+
+2016-09-22 18:49:36
+QUERY: UPDATE `users` SET `key_enter` = 1 WHERE `login` = qwerty
+Unknown column 'qwerty' in 'where clause'
+FILE: C:\OpenServer\domains\chat.ru\libs\class_Key.php
+LINE: 11
+
+2016-09-22 18:57:00
+QUERY: UPDATE `users` SET `key_enter` = 1 WHERE `login` = qwerty
+Unknown column 'qwerty' in 'where clause'
+FILE: C:\OpenServer\domains\chat.ru\libs\class_Key.php
+LINE: 11
+
+2016-09-22 19:44:07
+QUERY: UPDATE `users` SET `key_enter` = 1 WHERE `login` = qwerty
+Unknown column 'qwerty' in 'where clause'
+FILE: C:\OpenServer\domains\chat.ru\libs\class_Key.php
+LINE: 11
+
+2016-09-22 19:54:00
+QUERY: UPDATE `users` SET `key_enter` = 1 WHERE `login` = qwerty
+Unknown column 'qwerty' in 'where clause'
+FILE: C:\OpenServer\domains\chat.ru\libs\class_Key.php
+LINE: 11
+
+2016-09-22 19:54:02
+QUERY: UPDATE `users` SET `key_enter` = 1 WHERE `login` = qwerty
+Unknown column 'qwerty' in 'where clause'
+FILE: C:\OpenServer\domains\chat.ru\libs\class_Key.php
+LINE: 11
+
+2016-09-22 19:54:02
+QUERY: UPDATE `users` SET `key_enter` = 1 WHERE `login` = qwerty
+Unknown column 'qwerty' in 'where clause'
+FILE: C:\OpenServer\domains\chat.ru\libs\class_Key.php
+LINE: 11
+
+2016-09-22 19:54:19
+QUERY: UPDATE `users` SET `key_enter` = 1 WHERE `login` = 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+FILE: C:\OpenServer\domains\chat.ru\libs\class_Key.php
+LINE: 11
+
+2016-09-22 19:54:20
+QUERY: UPDATE `users` SET `key_enter` = 1 WHERE `login` = 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+FILE: C:\OpenServer\domains\chat.ru\libs\class_Key.php
+LINE: 11
+
+2016-09-22 19:54:21
+QUERY: UPDATE `users` SET `key_enter` = 1 WHERE `login` = 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+FILE: C:\OpenServer\domains\chat.ru\libs\class_Key.php
+LINE: 11
+
+2016-09-22 19:54:43
+QUERY: UPDATE `users` SET `key_enter` = 1 WHERE `login` = qwerty
+Unknown column 'qwerty' in 'where clause'
+FILE: C:\OpenServer\domains\chat.ru\libs\class_Key.php
+LINE: 11
+
+2016-09-22 19:54:43
+QUERY: UPDATE `users` SET `key_enter` = 1 WHERE `login` = qwerty
+Unknown column 'qwerty' in 'where clause'
+FILE: C:\OpenServer\domains\chat.ru\libs\class_Key.php
+LINE: 11
+
+2016-09-22 19:55:10
+QUERY: UPDATE `users` SET `key_enter` = 1 WHERE `login` = qwerty
+Unknown column 'qwerty' in 'where clause'
+FILE: C:\OpenServer\domains\chat.ru\libs\class_Key.php
+LINE: 11
+
+2016-09-22 19:55:11
+QUERY: UPDATE `users` SET `key_enter` = 1 WHERE `login` = qwerty
+Unknown column 'qwerty' in 'where clause'
+FILE: C:\OpenServer\domains\chat.ru\libs\class_Key.php
+LINE: 11
+
+2016-09-22 19:55:11
+QUERY: UPDATE `users` SET `key_enter` = 1 WHERE `login` = qwerty
+Unknown column 'qwerty' in 'where clause'
+FILE: C:\OpenServer\domains\chat.ru\libs\class_Key.php
+LINE: 11
+
+2016-09-22 19:55:11
+QUERY: UPDATE `users` SET `key_enter` = 1 WHERE `login` = qwerty
+Unknown column 'qwerty' in 'where clause'
+FILE: C:\OpenServer\domains\chat.ru\libs\class_Key.php
+LINE: 11
+
+2016-09-22 19:55:41
+QUERY: UPDATE `users` SET `key_enter` = 1 WHERE `login` = qwerty
+Unknown column 'qwerty' in 'where clause'
+FILE: C:\OpenServer\domains\chat.ru\libs\class_Key.php
+LINE: 11
+
+2016-09-22 19:55:43
+QUERY: UPDATE `users` SET `key_enter` = 1 WHERE `login` = qwerty
+Unknown column 'qwerty' in 'where clause'
+FILE: C:\OpenServer\domains\chat.ru\libs\class_Key.php
+LINE: 11
+
+2016-09-22 19:55:46
+QUERY: UPDATE `users` SET `key_enter` = 1 WHERE `login` = qwerty
+Unknown column 'qwerty' in 'where clause'
+FILE: C:\OpenServer\domains\chat.ru\libs\class_Key.php
+LINE: 11
+
+2016-09-22 19:55:46
+QUERY: UPDATE `users` SET `key_enter` = 1 WHERE `login` = qwerty
+Unknown column 'qwerty' in 'where clause'
+FILE: C:\OpenServer\domains\chat.ru\libs\class_Key.php
+LINE: 11
+
+2016-09-22 19:55:49
+QUERY: UPDATE `users` SET `key_enter` = 1 WHERE `login` = qwerty
+Unknown column 'qwerty' in 'where clause'
+FILE: C:\OpenServer\domains\chat.ru\libs\class_Key.php
+LINE: 11
+
+2016-09-22 19:55:50
+QUERY: UPDATE `users` SET `key_enter` = 1 WHERE `login` = qwerty
+Unknown column 'qwerty' in 'where clause'
+FILE: C:\OpenServer\domains\chat.ru\libs\class_Key.php
+LINE: 11
+
+2016-09-29 11:47:27
+QUERY: SELECT `date` FROM `messages` DESC LIMIT 1
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'DESC LIMIT 1' at line 1
+FILE: D:\Programs\OpenServer\domains\chat.ru\libs\class_Message.php
+LINE: 102
+
+2016-09-29 11:47:58
+QUERY: SELECT `date` FROM `messages` DESC LIMIT 1
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'DESC LIMIT 1' at line 1
+FILE: D:\Programs\OpenServer\domains\chat.ru\libs\class_Message.php
+LINE: 102
+
+2016-09-29 11:47:59
+QUERY: SELECT `date` FROM `messages` DESC LIMIT 1
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'DESC LIMIT 1' at line 1
+FILE: D:\Programs\OpenServer\domains\chat.ru\libs\class_Message.php
+LINE: 102
+
+2016-09-29 11:48:00
+QUERY: SELECT `date` FROM `messages` DESC LIMIT 1
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'DESC LIMIT 1' at line 1
+FILE: D:\Programs\OpenServer\domains\chat.ru\libs\class_Message.php
+LINE: 102
+
+2016-09-29 11:48:00
+QUERY: SELECT `date` FROM `messages` DESC LIMIT 1
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'DESC LIMIT 1' at line 1
+FILE: D:\Programs\OpenServer\domains\chat.ru\libs\class_Message.php
+LINE: 102
+
+2016-09-29 11:48:00
+QUERY: SELECT `date` FROM `messages` DESC LIMIT 1
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'DESC LIMIT 1' at line 1
+FILE: D:\Programs\OpenServer\domains\chat.ru\libs\class_Message.php
+LINE: 102
+
+2016-09-29 11:48:01
+QUERY: SELECT `date` FROM `messages` DESC LIMIT 1
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'DESC LIMIT 1' at line 1
+FILE: D:\Programs\OpenServer\domains\chat.ru\libs\class_Message.php
+LINE: 102
+
+2017-06-10 12:52:31
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:52:31
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:52:32
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:52:32
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:52:32
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:52:32
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:52:32
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:52:32
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:52:32
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:52:32
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:52:32
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:52:32
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:52:32
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:52:32
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:52:32
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:52:33
+QUERY: SELECT `key_enter` FROM `users` WHERE `login` = '' LIMIT 1
+Table 'chat.users' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\libs\class_Key.php
+LINE: 6
+
+2017-06-10 12:52:33
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:52:33
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:52:33
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:52:33
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:33
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:34
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:34
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:34
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:34
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:34
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:34
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:34
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:34
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:34
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:34
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:34
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:34
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:34
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:34
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:34
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:34
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:35
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:35
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:35
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:35
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:35
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:35
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:35
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:35
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:35
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:35
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:35
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:35
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:36
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:36
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:36
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:36
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:36
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:36
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:36
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:36
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:36
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:36
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:36
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:36
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:37
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:37
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:37
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:37
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:37
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:37
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:37
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:37
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:37
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:37
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:37
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:37
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:38
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:38
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:38
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:38
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:38
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:38
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:38
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:38
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:38
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:38
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:38
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:38
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:39
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:39
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:39
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:39
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:39
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:39
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:39
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:39
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:39
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:39
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:39
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:39
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:40
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:40
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:40
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:40
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:40
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:40
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:40
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:40
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:40
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:40
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:40
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:40
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:41
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:41
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:41
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:41
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:41
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:41
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:41
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:41
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:41
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:41
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:41
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:41
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:42
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:42
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:42
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:42
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:42
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:42
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:42
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:42
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:42
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:42
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:42
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:42
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:43
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:43
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:43
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:43
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:43
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:43
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:43
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:43
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:43
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:43
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:43
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:43
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:44
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:44
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:44
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:44
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:44
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:44
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:44
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:44
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:44
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:44
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:44
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:44
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:45
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:45
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:45
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:45
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:45
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:45
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:45
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:45
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:45
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:45
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:45
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:45
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:46
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:46
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:46
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:46
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:46
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:46
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:46
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:46
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:46
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:46
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:46
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:46
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:47
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:47
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:47
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:47
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:47
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:47
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:47
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:47
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:47
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:47
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:47
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:47
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:48
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:48
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:48
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:48
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:48
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:48
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:48
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:48
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:48
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:48
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:48
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:48
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:49
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:49
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:49
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:49
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:49
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:49
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:49
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:49
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:49
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:49
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:49
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:49
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:50
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:50
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:50
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:50
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:50
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:50
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:50
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:50
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:50
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:50
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:50
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:50
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:51
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:51
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:51
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:51
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:51
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:51
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:51
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:51
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:51
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:51
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:51
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:51
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:52
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:52
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:52
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:52
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:52
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:52
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:52
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'cabinet'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:52
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:52
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:53
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:58
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:58
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:58
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:58
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:58
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:58
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:59
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:59
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:59
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:59
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:59
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:59
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:59
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:59
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:59
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:59
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:59
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:55:59
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:00
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:00
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:00
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:00
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:00
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:00
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:00
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:00
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:00
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:00
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:00
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:00
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:01
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:01
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:01
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:01
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:01
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:01
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:01
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:01
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:01
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:01
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:01
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:01
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:02
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:02
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:02
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:02
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:02
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:02
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:02
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:02
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:02
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:02
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:02
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:02
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:03
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:03
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:03
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:03
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:03
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:03
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:03
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:03
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:03
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:03
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:03
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:03
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:04
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:04
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:04
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:04
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:04
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:04
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:04
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:04
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:04
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:04
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:04
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:04
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:05
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:05
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:05
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:05
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:05
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:05
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:05
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:05
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:05
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:05
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:05
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:05
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:06
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:06
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:06
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:06
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:06
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:06
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:06
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:06
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:06
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:06
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:06
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:06
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:07
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:07
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:07
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:07
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:07
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:07
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:07
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:07
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:07
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:07
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:07
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:07
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:08
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:08
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:08
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:08
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:08
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:08
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:08
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:08
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:08
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:08
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:08
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:08
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:09
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:09
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:09
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:09
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:09
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:09
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:09
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:09
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:09
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:09
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:09
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:09
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:10
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:10
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:10
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:10
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:10
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:10
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:10
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:10
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:10
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:10
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:10
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:10
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:11
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:11
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:11
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:11
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:12
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:12
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:12
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:13
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:13
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:13
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:14
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:14
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:14
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:15
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:15
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:15
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:16
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:16
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:16
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:17
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:17
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:17
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:19
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:19
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:19
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:19
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:19
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:19
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:20
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:20
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:56:20
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:57:21
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:57:21
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:57:22
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:57:23
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:57:23
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:57:28
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:57:29
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:57:36
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:57:39
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:57:40
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:57:47
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:57:47
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:57:47
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:57:48
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:57:48
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:57:48
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:57:48
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:57:49
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:57:55
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:57:55
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:57:55
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:57:56
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:57:56
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:57:56
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:57:56
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:57:57
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:57:57
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:57:57
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:57:58
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:57:58
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:57:59
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:58:01
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:58:03
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:58:03
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:58:04
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:58:04
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:58:59
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:58:59
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:59:01
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:59:02
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:59:02
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:59:05
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:59:05
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:59:06
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:59:06
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:59:09
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:59:09
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:59:09
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:59:10
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:59:10
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:59:10
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:59:13
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:59:13
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:59:13
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:59:14
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:59:14
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:59:17
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:59:17
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:59:17
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:59:18
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:59:18
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:59:20
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:59:20
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:59:21
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:59:21
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:59:21
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:59:29
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:59:29
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:59:30
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:59:30
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:59:30
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:59:36
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:59:36
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:59:37
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:59:37
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:59:37
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:59:38
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:59:38
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:59:38
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:59:46
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:59:46
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:59:46
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:59:47
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:59:47
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:59:47
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:59:49
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:59:50
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:59:50
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:59:50
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:59:58
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 12:59:58
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 13:00:01
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 13:00:01
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 13:00:01
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 13:00:05
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 13:00:05
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 13:00:05
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 13:00:06
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 13:00:06
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 13:00:06
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 13:00:07
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 13:00:07
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 13:00:09
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 13:00:09
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 13:00:09
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 13:00:17
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 13:00:17
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 13:00:18
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 13:00:18
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 13:00:19
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 13:00:19
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 13:00:19
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 13:00:20
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 13:00:20
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 13:00:21
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 13:00:26
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 13:00:26
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 13:00:26
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 13:00:27
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 13:00:27
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 13:00:27
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 13:00:28
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 13:00:28
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 13:00:30
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 13:00:36
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 13:00:36
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 13:00:36
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 13:00:37
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 13:00:37
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 13:00:37
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 13:00:38
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 13:00:46
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 13:00:50
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 13:00:50
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 13:00:50
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 13:00:51
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 13:00:51
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 13:00:51
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 13:00:52
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 13:00:52
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 13:00:52
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 13:00:53
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 13:00:53
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 13:00:54
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 13:00:54
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 13:00:56
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 13:00:56
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 13:00:56
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 13:00:57
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 13:00:57
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 13:00:57
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 13:01:01
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 13:01:01
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 13:01:04
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 13:01:04
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 13:01:06
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 13:01:06
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 13:01:06
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 13:01:07
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 13:01:07
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 13:01:09
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 13:01:09
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 13:01:09
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 13:01:12
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 13:01:12
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 13:01:12
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 13:01:13
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 13:01:13
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 13:01:13
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 13:01:14
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 13:01:14
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 13:01:15
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 13:01:15
+QUERY: 
+		SELECT *
+		FROM `pages`
+		WHERE `module` = 'static'
+		LIMIT 1
+		
+Table 'chat.pages' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\variables.php
+LINE: 39
+
+2017-06-10 13:05:10
+QUERY: INSERT INTO `users` SET `login` = 'qwerty', `pass` = 'l0owokYqoX6HI', `rights` = 0, `date` = 1497089110, `key_enter` = 0
+Unknown column 'rights' in 'field list'
+FILE: D:\Programs\OpenServer\domains\chat.loc\libs\class_Reg.php
+LINE: 27
+
+2017-06-10 13:06:10
+QUERY: INSERT INTO `users` SET `login` = 'qwerty', `pass` = 'l0owokYqoX6HI', `rights` = 0, `date` = 1497089170, `key_enter` = 0
+Field 'hash' doesn't have a default value
+FILE: D:\Programs\OpenServer\domains\chat.loc\libs\class_Reg.php
+LINE: 27
+
+2017-06-10 13:23:22
+QUERY: SELECT `login` FROM `online` WHERE login='qwerty' LIMIT 1
+Table 'chat.online' doesn't exist
+FILE: D:\Programs\OpenServer\domains\chat.loc\modules\cabinet\exit.php
+LINE: 7
+

@@ -1,0 +1,283 @@
+#message {
+	border: 1px solid #ced0d4;
+	padding: 5px;
+	height: 60px;
+	overflow: auto;
+	font-size: 14px;
+	color: #424251;
+}
+
+/* .buttons_block {
+	height: 30px;
+} */
+
+.content {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	height: calc(100% - 90px);
+	margin-bottom: 5px;
+}
+
+.messages {
+	width: calc(100% - 190px);
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-webkit-box-pack: end;
+	-webkit-justify-content: flex-end;
+	-ms-flex-pack: end;
+	justify-content: flex-end;
+	margin-right: 10px;
+	border: 1px solid #cccccc;
+	background-color: #ffffff;
+	padding: 5px;
+	word-wrap: break-word;
+}
+
+#mescont {
+	overflow: auto;
+}
+
+.users_block {
+	border: 1px solid #cccccc;
+	background-color: #ffffff;
+	padding: 5px;
+	overflow: auto;
+	width: 180px;
+}
+
+.button_div {
+	text-align: center;
+}
+
+#prevmes {
+	text-align: center;
+	background-color: #ffffff;
+	color: #2a5885;
+	font-size: 13px;
+	padding: 8px 13px 8px 13px;
+	border: 1px solid #c5d0db;
+	border-radius: 30px;
+	display: none;
+	position: absolute;
+	margin-left: -130px;
+}
+
+#prevmes:hover {
+	background-color: #f5f7fa;
+}
+
+.relativ {
+	position: relative;
+}
+
+#smiles {
+	display: none;
+	position: absolute;
+	background-color: #ffffff;
+	border-radius: 5px;
+	padding: 3px;
+	border: 1px solid #c5d0db;
+	bottom: 0px;
+	left: 75px;
+	max-height: 150px;
+	overflow: auto;
+}
+
+#smiles table tr td {
+	padding: 3px;
+	text-align: center;
+	vertical-align: bottom;
+}
+
+#smiles table tr td:hover {
+	cursor: pointer;
+	background-color: #ebeef2;
+	border-radius: 3px;
+}
+
+#colors {
+	display: none;
+	position: absolute;
+	border-radius: 3px;
+	padding: 3px;
+	border: 1px solid #c5d0db;
+	bottom: 0px;
+	left: 100px;
+	background-color: #ffffff;
+	max-height: 150px;
+	overflow: auto;
+	font-size: 16px;
+}
+
+#colors button {
+	background-color: #ffffff;
+	border: 0px;
+}
+
+#colors button:hover {
+	cursor: pointer;
+	background-color: #ebeef2;
+	border-radius: 3px;
+}
+
+#sizes {
+	display: none;
+	position: absolute;
+	border-radius: 3px;
+	padding: 3px;
+	border: 1px solid #c5d0db;
+	bottom: 0px;
+	left: 125px;
+	background-color: #ffffff;
+	max-height: 150px;
+	overflow: auto;
+}
+
+#sizes button {
+	background-color: #ffffff;
+	border: 0px;
+	width: 100%;
+}
+
+#sizes button:hover {
+	cursor: pointer;
+	background-color: #ebeef2;
+	border-radius: 3px;
+}
+
+.info_message {
+	font-size: 12px;
+	color: #777777;
+}
+
+.mes_pole {
+	padding-bottom: 5px;
+	padding-left: 7px;
+	font-size: 14px;
+	color: #424251;
+}
+
+.user_pole {
+	padding-top: 5px;
+}
+
+.login {
+	color: #526885;
+	font-size: 15px;
+	font-weight: bold;
+	cursor: pointer;
+	padding-left: 7px;
+	padding-bottom: 3px;
+	padding-top: 3px;
+	padding-right: 7px;
+}
+
+.login:hover {
+	background-color: #eeeeee;
+	border-radius: 3px;
+}
+
+.login_off {
+	color: #526885;
+	font-size: 15px;
+	font-weight: bold;
+	padding-left: 7px;
+	padding-bottom: 3px;
+	padding-top: 3px;
+	padding-right: 7px;
+}
+
+.date {
+	font-size: 12px;
+	color: #777777;
+	float: right;
+	padding-right: 10px;
+}
+
+.users_pole {
+	color: #365899;
+	font-size: 15px;
+	cursor: pointer;
+	padding-left: 7px;
+	padding-bottom: 3px;
+	padding-top: 3px;
+	padding-right: 7px;
+}
+
+.users_pole:hover {
+	background-color: #eeeeee;
+	border-radius: 3px;
+}
+
+.users_pole_off {
+	color: #365899;
+	font-size: 15px;
+	cursor: default;
+	padding-left: 7px;
+	padding-bottom: 3px;
+	padding-top: 3px;
+	padding-right: 7px;
+}
+
+.no_online {
+	font-size: 14px;
+}
+
+.buttons {
+	background-color: #e9ebee;
+	border-top: 1px solid #ced0d4;
+	border-left: 1px solid #ced0d4;
+	border-right: 1px solid #ced0d4;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	display: inline-block;
+	height: 25px;
+	cursor: default;
+	margin-bottom: -5px;
+}
+
+.buttons_all {
+	color: #5c6372;
+	border: 0px;
+	padding-left: 3px;
+	padding-right: 3px;
+	margin: 0px;
+	height: 24px;
+	min-width: 25px;
+	display: block;
+	float: left;
+}
+
+.buttons_all:hover {
+	background-color: #dddddd;
+}
+
+.buttons_left {
+	border-right: 1px solid #ced0d4;
+}
+
+.buttons_off {
+	background-color: #dddddd;
+}
+
+.buttons_on {
+	background-color: #e9ebee;
+}
+
+.message_off {
+	background-color: #dddddd;
+	cursor: default;
+}
+
+.message_on {
+	background-color: #ffffff;
+}
